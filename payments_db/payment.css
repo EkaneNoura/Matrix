@@ -1,0 +1,71 @@
+/* General Page Styling */
+body {
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering the Form */
+.container {
+    max-width: 500px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+}
+
+/* Form Headings */
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6600; /* Orange color */
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.form-control {
+    border: 2px solid #ff6600; /* Orange border */
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Labels */
+.form-label {
+    font-weight: bold;
+    color: #000000; /* Black text */
+}
+
+/* Input Fields on Focus */
+.form-control:focus {
+    border-color: #000000; /* Black border on focus */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Submit Button */
+.btn-primary {
+    background-color: #ff6600; /* Orange background */
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background-color: #cc5500; /* Darker orange */
+    transition: 0.3s ease-in-out;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}

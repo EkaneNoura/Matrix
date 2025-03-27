@@ -1,0 +1,241 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body background gradient */
+body {
+  background: white;/* Blue and Purple gradient */
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container for the form */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Form container styles */
+.login-form {
+  background-color: white; /* White background for the login form */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+  color: #333; /* Text color to be dark for contrast */
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #333; /* Text color for the heading */
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9; /* Light background for input fields */
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background-color:   #909090;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.login-form button:hover {
+  background-color:  #6d426f;
+}
+
+/* Forgotten password styles */
+.forgot-password {
+  margin-top: 10px;
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+/* Other sign-in options styles */
+.other-options {
+  margin-top: 5px;
+}
+
+.other-options p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #333; /* Dark text for the "Or sign in with:" text */
+}
+
+/* Icon container */
+.icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.icon:hover {
+  background-color: #f1f1f1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.icon.facebook:hover {
+  background-color: #3b5998;
+}
+
+.icon.google:hover {
+  background-color: #db4437;
+}
+
+.icon.email:hover {
+  background-color: #f39c12;
+}
+
+/* "Sign in here" bold text in curvy rectangle box */
+.sign-in-here {
+  margin-top: 20px; /* Shifts the text lower */
+  padding: 12px;
+  background-color: #f1f1f1; /* Light background for the rectangle */
+  border-radius: 15px; /* Curvy edges */
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.sign-in-here p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333; /* Dark text for better readability */
+}
+
+
+
+/* sign up style */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+.containern {
+  display: flex;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 700px;
+  text-align: center;
+}
+.welcome-sectionn {
+  flex: 1;
+  padding: 20px;
+  background: #838383;
+  color: white;
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.welcome-sectionn img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.signup-containern {
+  flex: 1;
+  padding: 25px;
+}
+.signup-containern h2 {
+  margin-bottom: 20px;
+  color: orange;
+}
+.user-typen {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.user-typen label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.input-groupn {
+  margin-bottom: 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+}
+.input-groupn input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+.input-groupn i {
+  padding: 12px;
+  color: #666;
+}
+.signup-buttonn {
+  background: #000000;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+
+}
+/* sign up style */

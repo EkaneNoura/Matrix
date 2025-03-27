@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Carter | UI/UX Designer & Frontend Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">BO <span>LOS</span>YN</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="portal.html">Upload Job</a>
+            <a href="profile.html">Profile</a>
+            <a href="payment_form.html">Payment</a>
+            <a href="hac.html">Chart</a>
+            <a href="#">Get Help</a>
+        </nav>
+        <div class="auth-buttons">
+            <a href="#" class="login">Log in</a>
+            <a href="#" class="signup">Sign up</a>
+        </div>
+    </header>
+    <div class="container">
+        <!-- Profile Header -->
+         <script>
+            
+         </script>
+        <header class="profile-header">
+            <div class="cover-photo" id="coverPhoto">
+                <h1>BOLOSYN Profile</h1>
+            </div>
+            <div class="profile-picture-container">
+                <img src="Untitled design.png" alt="Profile Picture" class="profile-picture" id="profilePicture">
+                <div class="profile-picture-edit">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <input type="file" id="profilePictureInput" accept="image/*">
+            </div>
+            <div class="profile-info">
+                <h1 class="profile-name">Teboh Samuel</h1>
+                <p class="profile-username">@tebohr</p>
+                <p class="profile-tagline">Expert UI/UX Designer & Frontend Developer</p>
+                <div class="profile-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Buea, Cameroon</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-clock"></i>
+                        <span>PST Time Zone</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="availability"><i class="fas fa-circle"></i> Available for work</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Profile Content -->
+        <div class="profile-content">
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- About Section -->
+                <section class="profile-section" id="aboutSection">
+                    <div class="section-header">
+                        <h2 class="section-title">About Me</h2>
+                        <a href="#" class="section-action">Edit</a>
+                    </div>
+                    <div class="about-text">
+                        <p>Hello! I'm TEBOH SAMUEL, a passionate UI/UX Designer and Frontend Developer with over 5 years of experience creating beautiful, functional, and user-centered digital experiences. I specialize in designing intuitive interfaces and developing responsive web applications.</p>
+                        <p>My approach combines aesthetic sensibility with technical expertise to deliver products that are not only visually appealing but also highly usable. I believe in the power of design to solve problems and create meaningful connections between users and technology.</p>
+                        <p>When I'm not designing or coding, you can find me hiking, reading about new technologies, or mentoring aspiring designers.</p>
+                    </div>
+                </section>
+
+                <!-- Skills Section -->
+                <section class="profile-section animate-delay-1" id="skillsSection">
+                    <div class="section-header">
+                        <h2 class="section-title">Skills & Expertise</h2>
+                        <a href="#" class="section-action">Add</a>
+                    </div>
+                    <div class="skills-container" id="skillsContainer">
+                        <!-- Skills will be populated by JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Experience Section -->
+                <section class="profile-section animate-delay-2" id="experienceSection">
+                    <div class="section-header">
+                        <h2 class="section-title">Work Experience</h2>
+                        <a href="#" class="section-action">Add</a>
+                    </div>
+                    <div id="experienceContainer">
+                        <!-- Experience items will be populated by JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Portfolio Section -->
+                <section class="profile-section animate-delay-3" id="portfolioSection">
+                    <div class="section-header">
+                        <h2 class="section-title">Portfolio</h2>
+                        <a href="#" class="section-action">View All</a>
+                    </div>
+                    <div class="portfolio-grid" id="portfolioGrid">
+                        <!-- Portfolio items will be populated by JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Reviews Section -->
+                <section class="profile-section" id="reviewsSection">
+                    <div class="section-header">
+                        <h2 class="section-title">Client Reviews</h2>
+                        <a href="#" class="section-action">See All</a>
+                    </div>
+                    <div id="reviewsContainer">
+                        <!-- Reviews will be populated by JavaScript -->
+                    </div>
+                </section>
+            </div>
+
+            <!-- Right Column -->
+            <div class="right-column">
+                <!-- Ratings Section -->
+                <section class="profile-section" id="ratingsSection">
+                    <div class="section-header">
+                        <h2 class="section-title">Ratings</h2>
+                    </div>
+                    <div class="rating-overview">
+                        <div class="rating-score">4.9</div>
+                        <div class="rating-stars">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="rating-count">Based on <span id="reviewCount">47</span> reviews</div>
+                        </div>
+                    </div>
+                    <div class="rating-details" id="ratingDetails">
+                        <!-- Rating bars will be populated by JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Pricing Section -->
+                <section class="profile-section animate-delay-1" id="pricingSection">
+                    <div class="section-header">
+                        <h2 class="section-title">Services & Pricing</h2>
+                        <a href="#" class="section-action">Edit</a>
+                    </div>
+                    <div id="pricingContainer">
+                        <!-- Pricing options will be populated by JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Badges Section -->
+                <section class="profile-section animate-delay-2" id="badgesSection">
+                    <div class="section-header">
+                        <h2 class="section-title">Badges & Achievements</h2>
+                    </div>
+                    <div class="badges-container" id="badgesContainer">
+                        <!-- Badges will be populated by JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Stats Section -->
+                <section class="profile-section animate-delay-3" id="statsSection">
+                    <div class="section-header">
+                        <h2 class="section-title">Stats</h2>
+                    </div>
+                    <div class="stats-grid" id="statsGrid">
+                        <!-- Stats will be populated by JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Contact Section -->
+                <section class="profile-section" id="contactSection">
+                    <div class="section-header">
+                        <h2 class="section-title">Contact Me</h2>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" class="form-textarea" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="profile.js"></script>
+    <script src="p.js"></script>
+</body>
+</html>
